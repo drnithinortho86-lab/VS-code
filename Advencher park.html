@@ -2,65 +2,159 @@
 <html>
 
 <head>
-    <title>My Food Diary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adventure Park Challenge</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <style>
         body {
-            background-color: linen;
+            background-color: green;
+            color: #f0f0f0;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 30px;
         }
 
+        h1 {
+            color: #ffcc33;
+        }
+
         h2 {
-            color: chocolate;
-            margin-top: 25px;
+            color: #ffffff;
+            margin-top: 30px;
         }
 
-        abbr {
-            color: chocolate;
-            font-weight: bold;
-            cursor: help;
+        h3 {
+            color: #ffffff;
         }
 
-        blockquote {
-            border-left: 4px solid chocolate;
-            padding-left: 15px;
-            color: dimgray;
-            font-style: italic;
+        small {
+            color: #bbbbbb;
+        }
+
+        dl {
             text-align: left;
             display: inline-block;
         }
 
+        dt {
+            color: #ffcc33;
+            font-weight: bold;
+        }
+
+        dd {
+            color: #dddddd;
+        }
+
+        mark {
+            background-color: #ffcc33;
+            color: #000000;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        code {
+            background-color: #07130d;
+            color: #66ff99;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        abbr {
+            color: #ffcc33;
+            font-weight: bold;
+            cursor: help;
+        }
+
+        pre {
+            background-color: #07130d;
+            color: #66ff99;
+            padding: 15px;
+            border-radius: 8px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        blockquote {
+            border-left: 4px solid #ffcc33;
+            padding-left: 15px;
+            color: #cccccc;
+            font-style: italic;
+            display: inline-block;
+            text-align: left;
+        }
+
         hr {
-            border-color: chocolate;
+            border-color: #2f4f3f;
         }
     </style>
 </head>
 
 <body>
 
-    <p class="display-1">MY FOOD DIARY</p>
-    <p class="display-2">My Top Dishes</p>
-    <p class="display-3">Fun Food Facts</p>
-    <p class="display-4">Food Guide <small>by Alex</small></p>
+    <h1>Welcome to Adventure Park Challenge!</h1>
 
     <hr>
-    <h2>Did You Know?</h2>
-    <p>Pizza is the <mark>most popular</mark> food ordered by kids around the world.</p>
-    <p>It takes about 30 minutes to bake a perfect homemade pizza.</p>
+
+    <h2>Adventure Levels</h2>
+    <p class="display-1">Extreme Mountain<p>
+    <p class="display-2">Explorer</p>
+    <p class="display-3">Sky Trail</p>
+    <p class="display-4">New Adventurer park</p>
 
     <hr>
-    <h2>Cooking Style</h2>
-    <p>My favourite way to cook with family is a good old <abbr title="Barbecue">BBQ</abbr> on a sunny day.</p>
+
+    <h2>Counter</h2>
+    <h3>Adults <small> each $100</small><h3>
+    <h3>Kids <small>each $75</small></h3>
 
     <hr>
-    <h2>Food Quote</h2>
-    <blockquote>
-        <p>"First we eat, then we do everything else."</p>
-        <p>— M.F.K. Fisher</p>
-    </blockquote>
+    
+    <h2>Bag counter</h2>
+    <h3>Big bags <small> each $50</small><h3>
+    <h3>Small bags <small>each $25</small></h3>
+    <p>Please keep your bag in the bag counter. Do not get inside the park with bags.</p>
 
+    <hr>
+
+    <h2>Ride dictionary</h2>
+    <dl>
+        <dt>Sky Coaster</dt>
+        <dd>A fast ride that takes visitors high above the park.</dd>
+
+        <dt>Treasure Trail</dt>
+        <dd>A mystery path where visitors solve clues to find treasure.</dd>
+
+        <dt>River Rush Valley</dt>
+        <dd>A water ride that moves quickly through twists and turns.</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Safety mission</h2>
+    <p>Please report to <mark>Gate 2</mark> before the challenge begins.</p>
+    <p>The rescue drill will be near the <mark>River Zone</mark>.</p>
+
+    <hr>
+
+    <h2>Ride commands</h2>
+    <p>Start the coaster: <code>ride.start("Sky coaster")</code></p>
+    <p>Open the trail: <code>trail.open("Treasure trail")</code></p>
+    <p>Stop the ride: <code>ride.stop("River rush valley")</code></p>
+    
+    <hr>
+    
+    <h2>Daily challenge schedule</h2>
+    <pre>
+    12:00 PM  -  Gate entry
+    1:00 PM  -  Sky coaster
+    2:00 PM  -  Treasure trail
+    4:00 PM  -  River rush valley
+    5:30 PM  -  Final adventure badge
+      </pre>
+    
 </body>
-
 </html>
